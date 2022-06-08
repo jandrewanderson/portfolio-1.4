@@ -1,21 +1,26 @@
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
   color:#d6d6d6;
   font-family:'Times New Roman', Times, serif;
 }
 
+ul {
+  list-style-type: none;
+}
 
 body {
   padding: 10px;
-  background-color: #141313
+  background-color: #141313;
+  display: flex;
+  margin-bottom: 2rem;
 }
 
 #viewport {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  flex-wrap: wrap;
+  min-height: 1300px;
 }
 
 header, footer, .box {
@@ -68,27 +73,6 @@ header h2 {
   max-height: 50%;
 }
 
-
-
-.hide {
-  display: none;
-  outline: 1px solid whitesmoke;
-}
-
-/* These will be added in later. */
-
-/* .hover:hover {
-  font-size: x-large;
-}
-
-.hover:hover + .hide {
-  display: block;
-  position:absolute;
-  height: auto;
-  right: 100px;
-  background-color: #141313;
-} */
-
 .box {
   height: 400px;
   width: 25%;
@@ -101,16 +85,17 @@ header h2 {
 
 .box h2 {
   font-size: 175%;
+  text-align: center;
 }
 
 .box1 {
-  height: 100vh;
+  height: 90vh;
   width: 25%;
   min-width: 200px;
   max-width: 600px;
   justify-content: flex-start;
   margin-right: 2%;
-  text-align: center;
+  text-align: start;
 }
 
 .about-me {
@@ -118,20 +103,39 @@ header h2 {
   padding-left: 1rem;
   padding-right: 1rem;
   padding-bottom: 1rem;
+  height: 33rem;
+  overflow-y: scroll;
+  margin-top: 1.5rem;
 }
 
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(75, 75, 75); 
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: whitesmoke;
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background:rgb(54, 56, 58); 
+  }
+
 .box1 h2 {
-  margin-top: 6rem;
   padding-top: 1rem;
 }
 
 .box.box1 img {
-  padding-top: 2rem;
-  
+  padding-top: 1rem;
 }
 
 .box.box1 p {
-  padding-top: 2rem;
+  padding-top: 1rem;
 }
 
 .headshot {
@@ -139,61 +143,35 @@ header h2 {
   max-height: 100%;
 }
 
-.resume {
-  width: 30%;
-  height: 18rem;
-  min-width: 150px;
-  min-height: 200px;
-}
-
-.resume-image {
-  width: 10rem;
-  height: 15rem;
-}
-
-
 .flex-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 0;
   justify-content: flex-start;
   align-items: flex-start;
   margin-left: 0.5%;
   margin-right: 0.5%;
+  min-height: 80vh;
+  margin-bottom: 5rem;
 }
 
 .flex-container-child {
   display: flex;
   flex-wrap: wrap;
   width: 70%;
-  justify-content: flex-end;
+  justify-content: center;
+  margin-top: 3rem;
 }
 
 .flex-container-child h2 {
   margin-bottom: 1rem;
 }
 
-.box2, .box3, .box4, .box5, .box6, .box7 {
+.box2 {
   width: 30%;
   height: 18rem;
   min-width: 150px;
   min-height: 200px;
-}
-
-.box8 {
-  width: 80%;
-  height: 50rem;
-  min-width: 150px;
-  min-height: 200px;
-}
-
-.box9, .box10 {
-  width: 40%;
-  height: 35rem;
-  min-width: 150px;
-  min-height: 200px;
-  margin-top: -3.8rem;
 }
 
 .flex-container-child section img {
@@ -204,32 +182,28 @@ header h2 {
 
 .flex-container-child section.box img:hover {
   opacity: 0.5;
-transform: scale(1.05);
+  transform: scale(1.05);
   box-shadow: 1px 1px 13px whitesmoke;
 }
 
-footer {
+#footer {
   outline: 2px solid whitesmoke;
   background-image: url("https://images.squarespace-cdn.com/content/v1/5df018ec4c9d61288094246c/1578939705332-EW5YRCD1F4FZX9QBMWEJ/interiorheader5.png?format=2500w");
-  height: auto;
-  width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   margin-top: 2rem;
+  padding: 0.5rem;
+  align-self: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
-footer h2 {
+#footer h2 {
   font-size: 175%;
   text-align: center;
-  padding-top: 1.5rem;
+  margin: 0.5rem;
 }
-
-footer div.footer {
-  display: flex;
-  justify-content: space-around;
-  padding-top: 1.5rem;
-}
-
 
 @media screen and (max-width: 992px) {
 
@@ -278,19 +252,5 @@ footer div.footer {
   .flex-container-child {
       margin-left: 15%;
       margin-top: 5rem;
-  }
-
-  footer h2 {
-      text-align: center;
-  }
-
-  .footer {
-      display: flex;
-      flex-direction: column;
-      text-align: center;
-      height: auto;
-      padding-top: 2%;
-      padding-bottom: 2%;
-      margin-top: auto;
   }
 }
