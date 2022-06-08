@@ -39,8 +39,20 @@ function Home() {
 
                         <h2 id="box1">About Me</h2>
                         
-                        <p>I learned everything that was needed to be a financial advisor and obtained the necessary licenses to be able to legally work in the field. The exams took several months of intense studying and practice, due to the level of expertise and legal compliance required in the industry. After a few years in this career, I became very successful, but was not receiving fulfillment. After reflecting on my life goals, I realized that being a financial advisor was not going to be the path of accomplishing those goals. Coding has always been a personal passion of mine. I decided it was time to follow my passion. SMU coding bootcamp has allowed this career change to be possible. It has taught me an abundance of useful skills that I will be able to apply in the work force. I am looking forward to graduating and seeking employment as a web developer.</p>
-                        <p>At the top of this page I have included a couple of things that I have developed. The top one was a group project. This project we were tasked with creating an app that utilized a free API and tools that we have learned in javascript up to this point in class. We decided to poke fun a little it at our teacher Gary. After that I am displaying a coding quiz. This quiz utilized tools in javascript to deliver a quiz. This quiz contains questions about basic coding topics. Lastly I am displaying an app that will give you the weather forecast for any city in the world. The user simply needs to type in the city, and they will receive information on the weather for the day as well as weather for the following five days.</p>
+                        <p>Brand Statment: Web Developer leveraging background as a salesman, banker, and financial advisor to provide a well rounded experience on the web. Recently earned a certificate in full stack development from the Southern Methodist University Coding Bootcamp, with newly developed skills in JavaScript, CSS, React.js, and responsive web design. Known as a hard worker when it comes to projects both in a team environment and individually. Also known as a quick learner and as someone that will continuously work at a problem until it can be resolved. My aim is to use the experience that I have to provide a user with a memorable and valuable experience. I recently worked on a project with four others to build a dating website geared specifically to nerds. On this app, the user is able to create an account, build their profile with images and personal information, connect with other users, and chat live with other users that they have connected with. I used my skills to assist in building the MySql database, the express routes, and the bulk of the front end experience. I am excited to leverage my skills as part of a fast-paced, quality-driven team to build better experiences on the web.</p>
+
+                        <p>Project Descriptions:</p>
+
+                        <ul>
+                            {ProjectData.map(project => (
+                                <li>
+                                    <p>{project.name}</p>
+                                    <p>{project.description}</p>
+                                </li>
+                            ))}
+                        </ul>
+
+                        <p>Background: I learned everything that was needed to be a financial advisor and obtained the necessary licenses to be able to legally work in the field. The exams took several months of intense studying and practice, due to the level of expertise and legal compliance required in the industry. After a few years in this career, I became very successful, but was not receiving fulfillment. After reflecting on my life goals, I realized that being a financial advisor was not going to be the path of accomplishing those goals. Coding has always been a personal passion of mine. I decided it was time to follow my passion. SMU coding bootcamp has allowed this career change to be possible. It has taught me an abundance of useful skills that I will be able to apply in the work force. I am looking forward to graduating and seeking employment as a web developer.</p>
                     </div>
                     
                 </section>
