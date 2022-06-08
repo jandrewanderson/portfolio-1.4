@@ -34,7 +34,7 @@ const projectInfo = [
         description: "This app allows users to connect with other users and play classic games live. We used iFrames to bring in a separate chatroom built with socket.io as well as a web page that contained the games."
     },
     {
-        name: "Game Parrot Chatroom",
+        name: "G.P Chatroom",
         href: "https://game-parrot-chatroom.herokuapp.com/",
         img: "https://cdn.discordapp.com/attachments/967611990094782527/984189779732213760/game-parrot-chatroom.herokuapp.com_.png",
         alt: "Image of Game Parrot Chatroom",
