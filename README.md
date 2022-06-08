@@ -2,7 +2,7 @@
 
 ## Description
 
-
+The purpose of this assignment was to create a page that will showcase my work in web deveolopment. I have links to several of the projects that I have completed. I have also linked my contact information including my resume, linkedin, github, email, and phone number. There is a section included that gives a description of who I am and a description of the projects that I chose to showcase.
 
 ## Table of Contents
 
@@ -16,8 +16,6 @@
 
 - [Contributions](#contributions)
 
-- [Resources](#resources)
-
 - [License](#license)
 
 ## Usage
@@ -30,23 +28,19 @@ If you have other Questions you can refer to the video or refer to my GitHub pro
 
 ## Screenshot
 
-![Image of finish product]()
+![Image of finish product](https://cdn.discordapp.com/attachments/967611990094782527/984202270143049809/j-andrew-anderson-portfolio1-4.herokuapp.com_.png)
 
 ## Link to the GitHub Repo
 
-[Here is the link to my Github Repository]()
+[Here is the link to my Github Repository](https://github.com/jandrewanderson/portfolio-1.4)
 
 ## Link to Heroku
 
-[Here is the Link to Heroku]()
+[Here is the Link to Heroku](https://j-andrew-anderson-portfolio1-4.herokuapp.com/)
 
 ### Contributions
 
 Joseph Andrew Anderson
-
-### Resources
-
-
 
 ### License
 
