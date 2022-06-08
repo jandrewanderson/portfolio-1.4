@@ -81,7 +81,7 @@ function Home() {
                     <p>Email: <a href="https://gmail.com" target="_blank">jandrewanderson1995@gmail.com</a></p>
                     <p>Github: <a href="https://github.com/jandrewanderson" target="_blank">https://github.com/jandrewanderson</a></p>
                     <p>LinkdIn: <a href="https://www.linkedin.com/in/j-andrew-anderson-34300a110/" target="_blank">www.linkedin.com/j-andrew-anderson</a></p>
-                    <p><a href="https://docs.google.com/document/d/1hkAd4oypgtDKEg0aBD18uXMrJePmBESA/edit?usp=sharing%26ouid=112179615365238054942%26rtpof=true%26sd=true" target="_blank">Résumé</a>
+                    <p><a href="https://docs.google.com/document/d/1my1Z8wgRmGw3Sv-FvSY43nqtnPx2nBVgqQ2DMtPfm3s/edit#" target="_blank">Résumé</a>
                     </p>
                 </div>
         </div>
